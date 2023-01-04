@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: "Oxygen", sans-serif;
+}
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  background-color: #35424a;
+  border-bottom: 3px solid #a9508a;
+  padding: 1rem;
+}
+.header_left .web_design {
+  color: white;
+}
+.cla_h2 {
+  color: #a9508a;
+}
+a {
+  font-size: 16px;
+  color: white;
+}
+a:hover {
+  color: #a9508a;
+}
+.header_right {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+/****   MAIN PART ********/
+.profwebdesignImg {
+  background-image: url(https://github.com/clarusway/clarusway-full-stack-tr-13-22/blob/main/html-css/projects/004-Website-Page-Design/img/showcase.jpg?raw=true)
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 360px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.main_text h1 {
+  padding-bottom: 20px;
+}
+.subscribe {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7rem;
+  background-color: #35424a;
+  padding: 1rem;
+}
+.button_subs {
+  background-color: #e8481c;
+  padding: 6px;
+  border: none;
+  color: white;
+}
+.input_email {
+  padding: 4px 75px 4px 1px;
+  text-align: left;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  padding: 2rem 5rem 2rem 2rem;
+}
+.logo {
+  height: 45%;
+  width: 20%;
+}
+h3 {
+  padding: 15px 15px 35px 15px;
+}
+.content p {
+  text-align: center;
+}
+footer {
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 7rem;
+  background-color: #35424a;
+  padding: 1rem;
+  text-align: center;
+}
+.footer_text {
+  display: block;
+  /* text-align: center; */
+  margin-left: auto;
+  margin-right: auto;
+}

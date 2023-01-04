@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: aqua; */
+  /* background-image: linear-gradient(to right, blue, pink); */
+}
+body {
+  display: block;
+  background-image: linear-gradient(to right, #020024, #72165e, #01d3fe);
+}
+h1 {
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  height: 190px;
+  width: 359px;
+  margin-left: 450px;
+  /* display: block; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  letter-spacing: 3px;
+  /* text-decoration: none solid rgb(255, 255, 255); */
+  text-align: center;
+  /* display: flex; */
+  /* align-items: center; */
+  word-spacing: 0px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  /* background-color: #ffffff; */
+  color: white;
+  /* background-position: 0% 0%;
+    margin-left: 90px;
+    min-width: auto; */
+  /* text-align: center; */
+}
+
+main {
+  /* font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    text-decoration: none solid rgb(0, 0, 0);
+    word-spacing: 0px; */
+  display: block;
+  /* height: 100%;
+    width: 100%;
+    box-sizing: border-box; */
+  /* text-align: center; */
+  padding: 1px;
+}
+
+section {
+  display: block;
+}
+
+.section {
+  width: 80%;
+  height: 245px;
+  margin: 10px auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #684f71, #966898, #5bcaeb);
+}
+
+img {
+  height: 225px;
+  width: 206px;
+  padding: 5px 5px 5px 5px;
+  float: left;
+  display: block;
+  cursor: pointer;
+  /* margin: 10px; */
+}
+.h3 {
+  color: #f4a460;
+  font-size: 32px;
+  display: block;
+  height: 42px;
+  /* width: 551px; */
+}
+p {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+  text-indent: 16px;
+  display: block;
+  height: 108px;
+  width: 840px;
+  color: white;
+  /* background-color: white; */
+  background-position: 0% 0%;
+  /* background-color: initial; */
+}
+buttons {
+  background-color: #f4a460;
+}
+
+.buttons {
+  background-color: #f4a460;
+  color: white;
+  float: right;
+  cursor: pointer;
+  height: 45px;
+  width: 120px;
+  display: block;
+  margin-right: 20px;
+  border: none;
+  border-radius: 5px;
+}
